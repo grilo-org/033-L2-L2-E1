@@ -18,13 +18,11 @@
   <packaging>jar</packaging>
 
   <dependencies>
-    <!-- web e REST -->
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-web</artifactId>
     </dependency>
 
-    <!-- Swagger / OpenAPI -->
     <dependency>
         <groupId>org.springdoc</groupId>
         <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
@@ -32,14 +30,12 @@
     </dependency>
 
 
-    <!-- Lombok (opcional) -->
     <dependency>
       <groupId>org.projectlombok</groupId>
       <artifactId>lombok</artifactId>
       <optional>true</optional>
     </dependency>
 
-    <!-- testes -->
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-test</artifactId>
@@ -49,7 +45,6 @@
 
   <build>
     <plugins>
-      <!-- plugin do Spring Boot para empacotar JAR executável -->
       <plugin>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-maven-plugin</artifactId>
